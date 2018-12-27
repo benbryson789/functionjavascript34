@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+
+</head>
+<body>
+
+<script>
+//function that shows global variable scope
+
+var holiday = "Merry";//global scope
+function happyHoliday() {
+	holiday = holiday + "Christmas";
+	console.log(holiday);
+}
+happyHoliday();
+
+console.log(holiday);//outside function
+
+</script>
+
+</body>
+
+
+</html>
